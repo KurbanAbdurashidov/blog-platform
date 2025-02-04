@@ -1,1 +1,1 @@
-# (App Link)[https://kurban-blog-platform.vercel.app/]
+# [App Link](https://kurban-blog-platform.vercel.app/)
