@@ -24,7 +24,6 @@ export const SignIn: React.FC = () => {
 	const navigate = useNavigate()
 
 	const [isLoading, setIsLoading] = useState(true)
-	const [error, setError] = useState(null)
 
 	const { handleSubmit, formState, reset, control } = useForm<IForm>({
 		mode: 'onChange'
