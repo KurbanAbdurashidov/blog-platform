@@ -1,0 +1,137 @@
+.fullArticle {
+	max-width: 1000px;
+	margin: 30px auto 0 auto;
+	background: #fff;
+	padding: 25px 35px;
+}
+
+.articleBody {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(65, 65, 216);
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+.favoritesCount {
+	font-size: 14px;
+	svg {
+		transform: translateY(3px);
+		margin-right: 2px;
+	}
+}
+
+.description {
+	font-size: 14px;
+	color: grey;
+	max-width: 800px;
+}
+
+.authorContainer {
+	display: flex;
+}
+
+.editDelete {
+	margin-top: 20px;
+}
+
+.user {
+	display: block;
+}
+
+.createdAt {
+	font-size: 14px;
+	color: grey;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+/* ! MARKDOWN */
+
+.markdown {
+	margin-top: 30px;
+}
+.markdown h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.markdown h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.markdown h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.markdown h4 {
+	display: block;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.markdown h5 {
+	display: block;
+	font-size: 0.83em;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.markdown h6 {
+	display: block;
+	font-size: 0.67em;
+	margin-top: 2.33em;
+	margin-bottom: 2.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.markdown p {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.markdown ul {
+	display: block;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1 em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+}
+.markdown ul li {
+	display: list-item;
+	list-style: square;
+}

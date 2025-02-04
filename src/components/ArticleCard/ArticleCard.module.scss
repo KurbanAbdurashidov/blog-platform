@@ -1,0 +1,60 @@
+.card {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 12px;
+	padding: 15px 10px;
+}
+
+.title {
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(65, 65, 216);
+	font-weight: 600;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: color 300ms;
+
+	&:hover {
+		color: rgba(65, 65, 216, 0.5);
+	}
+}
+
+.favoritesCount {
+	font-size: 14px;
+
+	svg {
+		transform: translateY(3px);
+		margin-right: 2px;
+	}
+}
+
+.tagList {
+	max-width: 400px;
+}
+
+.description {
+	font-size: 14px;
+	max-width: 400px;
+}
+
+.author {
+	display: flex;
+}
+
+.username {
+	display: block;
+}
+
+.createdAt {
+	font-size: 14px;
+	color: grey;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
